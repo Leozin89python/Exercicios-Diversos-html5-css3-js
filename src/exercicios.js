@@ -2,7 +2,7 @@
 		
 				
 			
-				====Exercicios JS====
+				/* ====Exercicios JS==== */
 
 
 
@@ -41,7 +41,7 @@ varejo = [{
 }]
 
 
-varejo.produto = ['arroz','açúcar']
+varejo.produto = ['arroz','aÃ§Ãºcar']
 
 varejo.preco = [2.35,3.65]
 
@@ -56,7 +56,7 @@ mocas = [{
     idade: 23
 },{
     
-	 nome: 'Vitória',
+	 nome: 'VitÃ³ria',
     idade: 21
 },{
      
