@@ -1,9 +1,9 @@
 
 
--------------- Revisão e fixação => ({Map,Reduce,Filter,CallBack,Promisse}) ----------
+/*--------------		 RevisÃ£o e fixaÃ§Ã£o => ({Map,Reduce,Filter,CallBack,Promisse})	 	---------- */
 				
-
-				    ===MAP===
+	
+				         /*    	===MAP===    */
 1)
 let numb = [1,2,6,87,7,4,0]
 
@@ -72,7 +72,7 @@ console.log(mapeaIdade)
     qntdd: 150
 },{
     
-	 item: 'feijão',
+	 item: 'feijÃ£o',
     preco: 5.56,
     qntdd: 856
 },{
@@ -98,8 +98,8 @@ const dobraValor = mercadorias.map( value => {
 
 console.log(dobraValor)
 
-
-				====FILTER===
+ 
+			                 /*	    ====FILTER===       */
 
 
 
@@ -141,11 +141,11 @@ console.log(novato)
 
 produtos = [{
     
-	item:'pão',
+	item:'pÃ£o',
     preco: 3.45
 },{
  
-   	item:'açúcar',
+   	item:'aÃ§Ãºcar',
  preco: 1.09 
 },{
    
@@ -183,11 +183,11 @@ prod = produtos.filter( (e, i , a) => {
 console.log(prod)
 
 
-				==Reduce==
+						/*  	==Reduce==	  */
 
 
 
-do prof° com encremento meu
+do profÂ° com encremento meu
 
 const rockets = [
   { country: "Russia", launches: 32 },
@@ -202,10 +202,6 @@ const rockets = [
 
 const totalLaunches = rockets.reduce( ( valorAnterior, valorAtualDoElemento)=> valorAnterior + valorAtualDoElemento.launches, 0 )
 
-//o zero é o valor inicial do somatório
+//o zero Ã© o valor inicial do somatÃ³rio
 
-console.log( totalLaunches )
-
-
-
-				==forEach==
+console.log( totalLaunches )			
