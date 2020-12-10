@@ -187,8 +187,6 @@ console.log(prod)
 
 
 
-do prof° com encremento meu
-
 const rockets = [
   { country: "Russia", launches: 32 },
   { country: "US", launches: 23 },
